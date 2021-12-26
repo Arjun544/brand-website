@@ -7,12 +7,12 @@ const About = () => {
   return (
     <div
       id="about"
-      className="relative h-1/3 flex flex-col md:flex-row justify-evenly my-44 lg:my-32"
+      className="relative h-1/3 flex flex-col md:flex-row items-center justify-evenly my-44 lg:my-32"
     >
         <Dec3 right="-top-32" left="right-12" rotate="-rotate-120" />
       
       <Fade left>
-        <div className="flex flex-col items-start">
+        <div className="flex flex-col items-center lg:items-start">
           <span className="text-2xl font-medium text-center mb-6">
             ABOUT US
           </span>

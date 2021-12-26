@@ -43,7 +43,7 @@ const Testimonials = () => {
       <div className=" h-full w-1/2 bg-slate-100 mt-10"></div>
       {/* Swiper */}
       <div className="absolute mx-auto top-32 lg:top-12 flex flex-col h-5/6 w-4/5 items-center justify-center">
-        <div className="flex lg:flex w-full h-full items-center justify-center">
+        <div className="flex flex-col lg:flex lg:flex-row w-full h-full items-center justify-center">
           {reviews.map((item, i) => (
             <Fade key={i} left>
               <div className="z-20 flex flex-col items-start justify-evenly h-52 w-96 bg-white shadow-md mb-4 lg:mr-4 px-6 hover:shadow-lg">
