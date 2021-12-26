@@ -1,5 +1,5 @@
 # Brand.io
-A website for randing company.
+A website for branding company.
 
 ### Live:
 https://brandwebsite.netlify.app/
