@@ -3,7 +3,7 @@ import React from "react";
 const Dec1 = () => {
   return (
     <svg
-      className="absolute z-20 top-1 -left-44 h-24 lg:h-52 lg:-top-4 lg:-left-28"
+      className="absolute z-20 top-1 -left-44 h-24 lg:h-52 lg:-top-4 lg:left-2"
       width="250"
       height="250"
       viewBox="0 0 360 235"

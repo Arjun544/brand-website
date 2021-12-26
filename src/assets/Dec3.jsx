@@ -1,11 +1,11 @@
 import React from "react";
 
-const Dec3 = () => {
+const Dec3 = ({right, left, rotate}) => {
   return (
     <svg
-      className="absolute z-20 -top-24 -right-24"
-      width="250"
-      height="250"
+      className={`absolute h-40 w-40 md:h-72 md:w-72 z-20 ${right} ${left} ${rotate}`}
+      width=""
+      height=""
       viewBox="0 0 376 235"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

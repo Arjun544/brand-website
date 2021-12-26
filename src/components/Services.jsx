@@ -3,6 +3,7 @@ import Ratings from "../assets/ratings.png";
 import Sales from "../assets/sales.png";
 import Customer from "../assets/customer.png";
 import ServiceTile from "./ServiceTile";
+import { Slide } from "react-reveal";
 
 const Services = () => {
   const services = [
@@ -23,18 +24,20 @@ const Services = () => {
     },
   ];
   return (
-    <div className="flex flex-col items-center h-1/2 justify-center my-16">
-      <span className="text-2xl font-medium text-center">
-        Grow faster with help your<br></br> customers
-      </span>
-      <div className="flex">
-        {services.map((service, index) => (
-          <div key={index}>
-            <ServiceTile service={service} />
-          </div>
-        ))}
+    <Slide bottom cascade>
+      <div className="flex flex-col items-center h-1/2 justify-center mt-56 mb-56 lg:mb-16 lg:mt-16">
+        <span className="text-2xl font-medium text-center">
+          Grow faster with help your<br></br> customers
+        </span>
+        <div className="lg:flex">
+          {services.map((service, index) => (
+            <div key={index}>
+              <ServiceTile service={service} />
+            </div>
+          ))}
+        </div>
       </div>
-    </div>
+    </Slide>
   );
 };
 

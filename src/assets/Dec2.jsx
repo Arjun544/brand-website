@@ -3,9 +3,8 @@ import React from 'react'
 const Dec2 = () => {
     return (
       <svg
-        className="absolute z-20 -bottom-8"
-        width="170"
-        height="170"
+        className="absolute z-20 -bottom-52"
+        width="220"
         viewBox="0 0 376 235"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
