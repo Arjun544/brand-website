@@ -3,7 +3,7 @@ import Dec3 from "../assets/Dec3";
 import LeftArrow from "../assets/LeftArrow";
 import RightArrow from "../assets/RightArrow";
 import StarIcon from "../assets/StarIcon";
-import { Fade, Slide } from "react-reveal";
+import { Fade } from "react-reveal";
 
 const Testimonials = () => {
   const reviews = [
