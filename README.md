@@ -1,7 +1,8 @@
 # Brand.io
+A website for randing company.
 
-## Ui design :
-https://www.arshakir.com/project/digital-landing-page-design
-
-## Live:
+### Live:
 https://brandwebsite.netlify.app/
+
+### Ui design :
+https://www.arshakir.com/project/digital-landing-page-design
