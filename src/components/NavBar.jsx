@@ -80,7 +80,7 @@ const NavBar = ({ scrolled }) => {
           {isMenuOpen && (
             <div
               ref={ref}
-              className="fixed z-50 top-24 right-0 flex flex-col h-1/3 w-full bg-white opacity-100 justify-evenly pl-4 lg:hidden shadow-md "
+              className="fixed z-50 top-24 right-0 flex flex-col h-52 w-full bg-white opacity-100 justify-evenly pl-4 lg:hidden shadow-md "
             >
               <a
                 href="#home"
